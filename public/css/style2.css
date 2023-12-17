@@ -1,0 +1,50 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.tulisan {
+    font-family: "Montserrat", sans-serif;
+}
+
+.latarbelakang {
+    background-color: #f2f2f2;
+}
+
+/* CSS biasa untuk ukuran layar yang lebih besar */
+.form-floating input,
+.form-floating label {
+    padding: 2px; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 16px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.form-floating input[name="email"] {
+    /* Properti khusus untuk elemen input email */
+    padding: 2px; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 16px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.form-floating input[name="password"] {
+    /* Properti khusus untuk elemen input password */
+    padding: 2px; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 16px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+/* Media query untuk ukuran layar kurang dari 500px */
+@media (max-width: 500px) {
+    .form-floating input,
+    .form-floating label {
+        padding: 10px; /* Sesuaikan dengan kebutuhan Anda pada lebar layar kurang dari 500px */
+        font-size: 14px; /* Sesuaikan dengan kebutuhan Anda pada lebar layar kurang dari 500px */
+        margin:0;
+    }
+
+    .form-floating input[name="email"],
+    .form-floating input[name="password"] {
+        padding: 10px; /* Sesuaikan dengan kebutuhan Anda pada lebar layar kurang dari 500px */
+        font-size: 14px; /* Sesuaikan dengan kebutuhan Anda pada lebar layar kurang dari 500px */
+    }
+
+    /* Gaya atau perubahan lain yang Anda inginkan pada ukuran layar kurang dari 500px */
+}
